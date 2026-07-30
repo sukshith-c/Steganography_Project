@@ -23,3 +23,19 @@ pip install -r requirements.txt
 Run:
 
 python app.py
+
+## CI/CD Pipeline
+
+This project uses Jenkins for:
+
+- Clone Repository
+- Install Dependencies
+- Run Tests
+- Build Application
+- Deploy Flask App
+
+Run locally:
+
+pip install -r requirements.txt
+
+python app.py
